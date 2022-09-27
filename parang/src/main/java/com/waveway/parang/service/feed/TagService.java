@@ -10,7 +10,8 @@ import java.util.List;
 
 @Slf4j
 @Service
-public class TagService {
+public class
+TagService {
 
     @Autowired
     private TagRepository tagRepository;

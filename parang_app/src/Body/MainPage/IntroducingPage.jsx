@@ -7,6 +7,10 @@ import { ThemeProvider } from '@mui/system';
 import { length } from './length.js';
 import { MainWave } from '../../LottieFiles/MainWave';
 import { LastButton } from '../../LottieFiles/LastButton';
+import axios from "axios";
+import { API_BASE_URL } from "../../config/API-Config";
+
+import { useStores } from "../../states/Context";
 // import main from 'media/infoFront1.jpeg';
 
 // import fishing from 'media/infoFront5.jpeg';
@@ -44,7 +48,6 @@ export const IntroducingPage = () => {
       ]
     }
   })
-
 
 
 
